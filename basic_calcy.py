@@ -1,13 +1,13 @@
 print("My Calcy welcomes you!")
 
-First = int(input("Enter the first value: "))
+First = float(input("Enter the first value: "))
 
 # Operator = "+", "-", "*", "/"
 operator = input("Enter the operator: ")
 if operator not in ("+", "-", "*", "/"):
     print("Error: Operator must be one of the following: +, -, *, /")
 else:
-    Second = int(input("Enter the second value: "))
+    Second = float(input("Enter the second value: "))
 
     if operator == '+':
         print("The final output is:", First + Second)
